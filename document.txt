@@ -1,0 +1,5 @@
+php artisan make:seeder User_Seeder
+php artisan db:seed --class=User_Seeder
+
+
+php artisan make:middleware UserAuth
